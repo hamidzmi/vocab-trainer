@@ -3,7 +3,7 @@
 A **Command-Line Application** built in **Go** to help users learn and practice German vocabulary using an interactive menu-driven approach. The app supports adding new words, reviewing learned vocabulary, and testing knowledge through quizzes.
 
 ## Features
-✅ **AI-Powered Translations & Examples** – Uses Generative AI to fetch word meanings and create contextual example sentences.
+✅ **AI-Powered Translations & Examples** – Uses Generative AI to fetch word meanings and create contextual example sentences.  
 ✅ **Learn New Words** – Learn new words with AI-powered translations and examples.  
 ✅ **Review Mode** – Go through previously learned words.  
 ✅ **Quiz Mode** – Test your vocabulary knowledge interactively.  
