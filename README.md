@@ -1,0 +1,1 @@
+A Command-Line Application built in Go to help users learn and practice German vocabulary using an interactive menu-driven approach. The app supports adding new words, reviewing learned vocabulary, and testing knowledge through quizzes.
