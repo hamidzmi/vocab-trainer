@@ -3,7 +3,8 @@
 A **Command-Line Application** built in **Go** to help users learn and practice German vocabulary using an interactive menu-driven approach. The app supports adding new words, reviewing learned vocabulary, and testing knowledge through quizzes.
 
 ## Features
-✅ **Learn New Words** – Add words with translations and examples.  
+✅ **AI-Powered Translations & Examples** – Uses Generative AI to fetch word meanings and create contextual example sentences.
+✅ **Learn New Words** – Learn new words with AI-powered translations and examples.  
 ✅ **Review Mode** – Go through previously learned words.  
 ✅ **Quiz Mode** – Test your vocabulary knowledge interactively.  
 ✅ **TDD-Driven Development** – Developed with a test-first approach.  
@@ -37,9 +38,11 @@ go test ./...
 ```
 
 ## Roadmap 🛤️
-🔹 Integrate AI-generated example sentences  
-🔹 Implement Spaced Repetition for better retention  
-🔹 Expand to GUI/iOS app  
+🔹 Integrate AI-generated translations and example sentences
+🔹 Implement Spaced Repetition for better retention
+🔹 Implement Review mode
+🔹 Implement Quiz mode
+🔹 Expand to GUI/iOS app
 
 ## Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
