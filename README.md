@@ -27,8 +27,8 @@ ollama serve
 ## Installation
 
 ```sh
-git clone https://github.com/yourusername/german-vocab-trainer.git
-cd german-vocab-trainer
+git clone https://github.com/hamidzmi/vocab-trainer.git
+cd vocab-trainer
 go build -o vocab-trainer
 ./vocab-trainer
 ```
