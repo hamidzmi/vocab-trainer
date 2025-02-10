@@ -36,12 +36,12 @@ func NewOllamaTranslator(language string, level string) *OllamaTranslator {
 		    "synonyms": ["synonym1", "synonym2", ...]
 		  }
 		
-		Now, translate the following %s word/phrase: "%s".
-		`, language, language, level, language, language, language)
+		Now, translate the following %s word/phrase: 
+		`, language, language, level, language, language)
 
 	return &OllamaTranslator{
 		llm:    llm,
-		prompt: prompt,
+		prompt: prompt + "%s",
 	}
 }
 
