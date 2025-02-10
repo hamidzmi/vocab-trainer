@@ -31,9 +31,9 @@ func NewOllamaTranslator(language string, level string) *OllamaTranslator {
 		- The response must be **strictly valid JSON** with no introductory text or explanations
 		- Use this format:
 		  {
-		    "meanings": ["meaning1", "meaning2", ...],
-		    "examples": ["example1", "example2", ...],
-		    "synonyms": ["synonym1", "synonym2", ...]
+		    "meanings": ["meaning1", "meaning2", "meaning3", "meaning4", ...],
+		    "examples": ["example1", "example2", "example3", "example4"...],
+		    "synonyms": ["synonym1", "synonym2", "synonym3", "synonym4", ...]
 		  }
 		
 		Now, translate the following %s word/phrase: 
