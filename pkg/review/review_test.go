@@ -123,6 +123,13 @@ func TestGetWordsDueForReview(t *testing.T) {
 			NextReview: time.Now().AddDate(0, 0, -1).Truncate(time.Second),
 		},
 		{
+			Term:       "Test",
+			Definition: "Test",
+			Example:    "Test",
+			Level:      3, // Should not be selected as is already mastered!
+			NextReview: time.Now().AddDate(0, 0, -1).Truncate(time.Second),
+		},
+		{
 			Term:       "Tschüss",
 			Definition: "Goodbye",
 			Example:    "Tschüss Beispiel",

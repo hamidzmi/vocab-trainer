@@ -27,7 +27,7 @@ func UpdateReview(w *Word, remembered bool) {
 func GetWordsDueForReview(words []Word) []Word {
 	var result []Word
 	for _, w := range words {
-		if w.NextReview.Before(time.Now()) {
+		if w.NextReview.Before(time.Now()) && w.Level < 3 {
 			result = append(result, w)
 		}
 	}
