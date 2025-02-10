@@ -7,7 +7,6 @@ A **Command-Line Application** built in **Go** to help users learn and practice 
 ✅ **Learn New Words** – Learn new words with AI-powered translations and examples.  
 ✅ **Review Mode** – Go through previously learned words.  
 ✅ **Quiz Mode** – Test your vocabulary knowledge interactively.  
-✅ **TDD-Driven Development** – Developed with a test-first approach.  
 
 ## Installation
 
